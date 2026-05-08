@@ -116,6 +116,21 @@ body::before {
 .fixed-btn svg { width: 18px; height: 18px; pointer-events: none; }
 
 .theme-toggle { left:20px; }
+.github-btn { 
+    right:66px; 
+    text-decoration: none;
+    color: var(--text-secondary);
+    background: var(--surface);
+    box-shadow: 2px 2px 4px var(--shadow-dark), -1px -1px 0 var(--shadow-light);
+}
+.github-btn:hover {
+    transform: scale(1.05);
+    color: var(--text-secondary);
+}
+.github-btn:active {
+    box-shadow: inset 2px 2px 4px var(--shadow-dark), inset -1px -1px 0 var(--shadow-light);
+    transform: scale(0.95);
+}
 .settings-btn { right:20px; }
 
 /* Settings Modal */
